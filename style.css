@@ -4,13 +4,14 @@
           width:300px;
           height:auto
       }
+      
       body {
         font-family: 'Amatic SC', cursive;
-        background-color: white;
+        background-color: rgb(92, 2, 37);
       }
-    
-    #par1.highlight {
-          color:green;
+      /* <<Container outline */
+    #par1.highlight {         
+          color: red;
       }
     
       h1 {
@@ -18,8 +19,8 @@
         font-family: 'Kalam', cursive;
           font-size: 50px;
           font-variant:small-caps;
-          color: black; 
-          padding: 20px;
+          color: rgb(0, 4, 5); 
+          padding: 10px;
           text-align: center;
     
       }
@@ -29,25 +30,6 @@
       }
     
     
-      .highlight.und {
-          font-size:30px;
-      }
-    
-      #par1.highlight {
-          color:black;
-      }
-        span {
-            color:black;
-        }
-    
-    
-        header {
-            outline:1px solid black;
-            text-align: center;
-            margin: 30px auto;
-            width: 1000px;
-            background-color: darkgrey;
-        }
         
         .row {
             outline: 8px solid grey;
