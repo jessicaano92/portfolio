@@ -1,23 +1,22 @@
 
     
       img {
-          width:300px;
+          width:350px;
           height:auto
       }
-      
+
+         /* Added font family */
       body {
-        font-family: 'Amatic SC', cursive;
-        background-color: rgb(92, 2, 37);
+        font-family: 'Antic Slab', serif; 
+        background-color: rgb(247, 243, 244);
       }
-      /* <<Container outline */
-    #par1.highlight {         
-          color: red;
-      }
+      /* Container outline */
     
+    
+         /* Added font family to My Biography */
       h1 {
-        font-family: 'Amatic SC', cursive;
-        font-family: 'Kalam', cursive;
-          font-size: 50px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 40px;
           font-variant:small-caps;
           color: rgb(0, 4, 5); 
           padding: 10px;
@@ -25,14 +24,10 @@
     
       }
     
-      .highlight {
-          color:rgb(0, 0, 5);    
-      }
+      
     
     
         
-        .row {
-            outline: 8px solid grey;
-        }
+        
     
  
