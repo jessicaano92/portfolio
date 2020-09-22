@@ -1,10 +1,10 @@
 
     
-      img {
-          width:350px;
-          height:auto
+    
+      .img-fluid {
+        max-width: 100%;
+        height: auto
       }
-
 
 
          /* Added font family */
