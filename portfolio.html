@@ -6,11 +6,12 @@
     <title>My Portfolio Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!--linked style sheet-->
     <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet"> <!--added font family to body-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> <!--added font family to h1-->
 </head>
 <body>
+             <!--added navbar from Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(92, 163, 136)">
         <a class="navbar-brand" href="#">Jessica Anocibar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -38,27 +39,71 @@
     <main>
       <div class="container">
         <section class="row">
-            <div class="col-12 col-md-4">
-             <img src="./assets/images/oakley.jpg" class="img-fluid" alt="Responsive image" /> <!--added responsive image-->
-            </div>
-           <div class="col-12 col-md-4">
-          <!-- Text for Portfolio-->
-          <p class="highlight">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias velit magnam voluptatem perspiciatis ut tempora quisquam earum 
-             deserunt temporibus voluptatum veniam quasi, exercitationem, nisi dolorem et quaerat quidem. Perferendis.
-           </p>
-         </div>
-          <div class="col-12 col-md-4">
-             <p class="highlight"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam eos beatae excepturi facilis laborum, voluptate sint quisquam repellat aliquid dolore minus maxime, 
-              atque illum molestias vitae molestiae voluptates sed reiciendis?
-              </p>
-          </div>
+            <div class="card" style="width: 18rem;">   <!--added cards from Bootstrap-->
+                <img class="card-img-top" src="./assets/images/meandoaks.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            <div class="card offset-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/flight2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
            
           
-        </div>
-         </section>
+        </section>
+        <section class="row">
+            <div class="card" style="width: 18rem;"> <!--cards from Bootstrap-->
+                <img class="card-img-top" src="./assets/images/IMG_1917.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            <div class="card offset-md-4" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/backfromdeployment.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+           
+          
+        </section>
+        <section class="row">
+            <div class="card" style="width: 18rem;"> <!--card from Bootstrap-->
+                <img class="card-img-top" src="./assets/images/moab.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            <div class="card offset-md-4" style="width: 18rem;"> <!--card from Bootsrap-->
+                <img class="card-img-top" src="./assets/images/flight1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+           
+          
+        </section>
 
-         <footer id=“sticky-footer” class=“py-4 bg-dark text-white-50 row”></footer>
+
+
+        </div>
+
+        <footer id=“sticky-footer” class=“py-4 bg-dark text-white-50 row”></footer> <!--bonus sticky footer-->
         
     </main>
 

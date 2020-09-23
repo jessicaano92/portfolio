@@ -6,11 +6,12 @@
     <title>My Contact Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!--linked style sheet-->
     <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet"> <!--added font family to body-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> <!--added font family to h1-->
 </head>
 <body>
+           <!--added navbar from Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(92, 163, 136)">
         <a class="navbar-brand" href="#">Jessica Anocibar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -36,25 +37,22 @@
     </nav>
        
     <main>
-      <div class="container">
-          <section class="row">
-            <div class="col-12 col-md-4">
-       <p><a href="https://www.facebook.com/jessica.yaws">www.facebook.com</a></p>
+      <div id="container">
+        <form class="col-md-8">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-          <div class="col-12 col-md-4">
-        <!-- Text for Contact-->
-           <p class="highlight">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias velit magnam voluptatem perspiciatis ut tempora quisquam earum 
-           deserunt temporibus voluptatum veniam quasi, exercitationem, nisi dolorem et quaerat quidem. Perferendis.
-           </p>
-          </div>
-       <div class="col-12 col-md-4">
-        <p class="highlight"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam eos beatae excepturi facilis laborum, voluptate sint quisquam repellat aliquid dolore minus maxime, 
-         atque illum molestias vitae molestiae voluptates sed reiciendis?
-         </p>
-     </div>
-      </div>
-    </section>
+           
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Send Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+          <section class="offset-md-2">
+            <a href= "https://www.facebook.com/jessica.yaws" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Facebook link</a>
+            <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Send Email</a>
+          </section>
   </main>
 
 

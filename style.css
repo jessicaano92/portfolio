@@ -1,6 +1,6 @@
 
     
-    
+    /* image responsiveness */
       .img-fluid {
         max-width: 100%;
         height: auto
@@ -12,7 +12,6 @@
         font-family: 'Antic Slab', serif; 
         background-color: rgb(247, 243, 244);
       }
-      /* Container outline */
     
     
          /* Added font family to My Biography */
@@ -25,8 +24,15 @@
           text-align: center;
     
       }
-    
       
+      #container {
+        margin-top: 50px;
+      }
+      
+      /* card spacing */
+      .card {
+        margin-top: 20px;
+      }
     
     
         
