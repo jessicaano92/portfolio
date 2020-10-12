@@ -32,10 +32,22 @@
       /* card spacing */
       .card {
         margin-top: 20px;
+      
+        
       }
       .card-title {
         text-align: center;
       }
+     
+      .btn {
+        align-self: center;
+      }
+
+     .row {
+      padding-bottom: 20px;
+     }
+
+      
     
     
         
