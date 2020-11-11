@@ -10,18 +10,22 @@
     <link rel="stylesheet" href="style.css"> <!--linked style sheet-->
     <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet"> <!--added font family to body-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> <!--added font family to h1-->
-</head>
+    </head>
 
-<body>
-
-              <!--Added nav bar from Bootstrap-->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(92, 163, 136);"> <!--added nav color-->
-            <a class="navbar-brand" href="#">Jessica Anocibar</a>
+    <body>
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1>Jessica Anocibar</h1>
+             
+            </div>
+          </div>
+        <nav class="navbar navbar-expand-lg navbar-light"> <!--added nav color-->
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+          
             <section class="collapse navbar-collapse" id="navbarSupportedContent"> <!--added section tag-->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -30,33 +34,30 @@
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio </a>
                     </li>
-
+          
                     <li class="nav-item">
                         <a class="nav-link disabled" href="contact.html" tabindex="-1" aria-disabled="true">Contact </a>
                     </li>
                 </ul>
-
+          
             </section> <!--added section tag-->
-        </nav>
-
-        
-    <main>
-        <!--Container section-->
-    <div class="container">
-      <section class="row">
-          <div class="col-12">
-              <h1>My Biography</h1>
-          </div>
-         </section>
-
-        <section class="row">
+          </nav>
+          
+          <div id="page-wrapper">
+          <main id="main-body" class="clearfix">
+          <!--Container section-->
+          <div class="container"></div>
+          
+          <div class="section cover-section">
+          <div class="section-wrap">
+          <section class="row">
            <div class="col-12 col-md-4"> <!--added columns-->
-            <img src="./assets/images/jessano.jpg" class="img-fluid"  alt="Responsive image" /> <!--added responsive image-->
+            <img src="./assets/images/jessano.jpg" class="img-fluid" alt="Responsive image" /> <!--added responsive image-->
            </div>
           <div class="col-12 col-md-4">
-         <!--About Me-->
-         <p class="highlight">
-           <form> I love the outdoors, biking, camping, my friends and family. <!--added semantic tag-->
+     
+          <p class="highlight">
+           <form> I love the outdoors, biking, camping, my friends and family. 
                  Nature is my therapy! I am a total crime junkie and fan girl over crime podcasts and movies.
              Talk coffee and sushi to me and I will be your best friend!
             I'm a seasoned traveler and love exploring new countries and trying new cuisines.
@@ -64,30 +65,36 @@
               I've traveled almost all over the United States and internationally including Europe, Japan, South America, and Canada.
             I have been married to the love of my life for 7 years and we have an awesome chocolate lab named Oakley. We are originally from Southern Oregon
            and have lived in 5 different states but currently reside in Colorado! </form>
+           
                  
           </p>
-        </div>
-         <div class="col-12 col-md-4"> <!--added columns-->
-             <img src="./assets/images/weddingdaybw.jpg" class="img-fluid" alt="Responsive image"> <!--added responsive image-->
           </div>
-        </section>
-       
-
-    </div>
-    </main>
-
+          <div class="col-12 col-md-4"> <!--added columns-->
+             <img src="./assets/images/weddingdaybw.jpg" class="img-fluid" id="image-two" alt="Responsive image"> <!--added responsive image-->
+          </div>
+          </section>
+          </div>
+          </div>
+          
+          
+          </div>
+          </main>
+          </div>
+          
+          
+          <!--navbar drop down links-->
+          
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+          crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+          crossorigin="anonymous"></script>
     
-         <!--navbar drop down links-->
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+    
+    </body>
+    </html>
+    
