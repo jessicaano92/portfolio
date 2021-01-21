@@ -9,11 +9,11 @@ My website provides a biography of who I am, my most recent career, my family, a
 
 ## Installation
 
-Unsure 
+Basic HTML, Bootstrap and CSS
 
 ## Usage 
 
-Unsure
+Personal portfolio
 
 
 ## Credits
@@ -53,7 +53,7 @@ SOFTWARE.
 
 ## Technology Used
 
-I mainly used Bootstrap along with basic HTML and CSS. I inserted two different Google fonts for my body and h1 tag. 
+HTML, CSS, Bootstrap, Google fonts
 
 
 
